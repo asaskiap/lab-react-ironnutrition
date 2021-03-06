@@ -25,13 +25,36 @@ h1 {
 
 .searchBar {
     width: 100%;
-    margin: 1em 0em;
+    margin: 1em auto;
+    margin-left: 1em;
+    padding: 0.5em;
+    background-color: rgb(187, 238, 238);
+    border: 1px solid darkslategrey;
 }
 
 .todaysMeals {
-    margin-left: 3em;
+    margin-left: 6em;
     flex: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-left: 1px solid darkslategrey;
+    padding: 2em;
+    ul {
+        margin-top: 1.5em;
+        li {
+            list-style: none;
+        }
+    }
+}
+
+.AddMealForm {
+    padding: 2em;
+    input {
+        margin: 1em 0.5em;
+        padding: 0.5em;
+        min-width: 15em;
+        background-color: rgb(187, 238, 238);
+        border: 1px solid darkslategrey;
+    }
 }

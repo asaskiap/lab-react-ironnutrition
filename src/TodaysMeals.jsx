@@ -15,7 +15,9 @@ class TodaysMeals extends React.Component {
           })}
         </ul>
 
-        <p>Total calories: {this.props.totalCalories}</p>
+        <p>
+          <strong> Total calories: {this.props.totalCalories}</strong>
+        </p>
       </div>
     );
   }
